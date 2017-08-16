@@ -1,12 +1,12 @@
 $( document ).ready(function() {
     console.log( "ready!" );
 
-    var questions = ["Did you fight with a friend?", "Do you have another friend to confide in?", "Do you wish you were different physically?", "Did you harm yourself physically?", "Are you thinking of harming yourself physically in any way?", "would you consider seeing a therapist?", "Do you have panic attacks?", "Did you go to work today?", "Do you work alot?", "Do you like what you do?", "Even so, is it sometimes overwhelming?", "Do you feel that you are sometimes too sensitive and get hurt too easily?", "First question for taylour6-7?", "First question for taylour8-10?"];
+    var questions = ["Did you fight with a friend?", "Do you have another friend to confide in?", "Do you wish you were different physically?", "Did you harm yourself physically?", "Are you thinking of harming yourself physically in any way?", "would you consider seeing a therapist?", "Do you have panic attacks?", "Did you go to work today?", "Do you work alot?", "Do you like what you do?", "Even so, is it sometimes overwhelming?", "Do you feel that you are sometimes too sensitive and get hurt too easily?", "First question for taylour6-7?", "First question for taylour8-10?", "Fill in answer for now?"];
 
     var next = {
     			0:[1, 2],
-    			1:[3, 4],
-    			2:[5, 6],
+    			1:[14, 5],
+    			2:[3, ],
     		};
 
     var currentQuestionIndex = 0;
