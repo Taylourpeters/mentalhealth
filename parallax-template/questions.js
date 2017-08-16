@@ -47,7 +47,7 @@ $( document ).ready(function() {
         currentQuestionIndex = 2;
     }
     else if (value_from_first_page >=) {
-        console.log("") 
+        console.log("")
     }
     else {
         console.log("sad");
@@ -82,5 +82,5 @@ $( document ).ready(function() {
     	pressedNo();
 	});
 
-    
+
 });
