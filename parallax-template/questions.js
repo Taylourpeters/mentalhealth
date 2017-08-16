@@ -1,7 +1,7 @@
 $( document ).ready(function() {
     console.log( "ready!" );
 
-    var questions = ["Did you fight with a friend?", "Do you have another friend to confide in?", "Do you wish you were different physically?", "Did you harm yourself physically?", "Are you thinking of harming yourself physically in any way?", "would you consider seeing a therapist?", "Do you have panic attacks?", "Did you go to work today?", "Do you work alot?", "Do you like what you do?", "Even so, is it sometimes overwhelming?", "Do you feel that you are sometimes too sensitive and get hurt too easily?", "First question for taylour6-7?", "First question for taylour8-10?"];
+    var questions = ["did someone special make you feel appreciated?", "did you feel appreciated today? ", "did someone neglect you today ", " ", "5", "6", "7", "8", "9", "10",];
 
     var next = {
     			0:[1, 2],
@@ -40,22 +40,21 @@ $( document ).ready(function() {
 
     if (value_from_first_page >= 8)  {
         console.log("taylour8-10");
-        currentQuestionIndex = 13;
+        currentQuestionIndex = 1;
     }
     else if (value_from_first_page >= 6) {
         console.log("taylour6-7");
-        currentQuestionIndex = 12;
+        currentQuestionIndex = 2;
     }
     else if (value_from_first_page >= 4) {
-        console.log("clemone4-5"); 
-        currentQuestionIndex = 7;
+        console.log("clemone4-5")
     }
     else {
         console.log("clemone1-3");
-        currentQuestionIndex = 0;
+        currentQuestionIndex = 4;
     }
 
-    $("#question").text(questions[currentQuestionIndex]);
+    //$("#question").text(questions[currentQuestionIndex]);
 
 
     // functions that change the value of the question
