@@ -1,7 +1,7 @@
 $( document ).ready(function() {
     console.log( "ready!" );
 
-    var questions = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"];
+    var questions = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10",];
 
     var next = {
     			0:[1, 2],
@@ -38,19 +38,20 @@ $( document ).ready(function() {
     console.log(qs, qs["val"]);
     var value_from_first_page = parseInt(qs["val"]);
 
-    if (value_from_first_page >= )  {
+    if (value_from_first_page >= 8)  {
         console.log("taylour8-10");
         currentQuestionIndex = 1;
     }
-    else if (value_from_first_page >= 5) {
-        console.log("taylor6-7");
+    else if (value_from_first_page >= 6) {
+        console.log("taylour6-7");
         currentQuestionIndex = 2;
     }
-    else if (value_from_first_page >=) {
-        console.log("") 
+    else if (value_from_first_page >= 4) {
+        console.log("clemone4-5"); 
+        currentQuestionIndex = 3;
     }
     else {
-        console.log("sad");
+        console.log("clemone1-3");
         currentQuestionIndex = 4;
     }
 
