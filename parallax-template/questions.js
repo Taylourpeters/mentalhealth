@@ -38,13 +38,16 @@ $( document ).ready(function() {
     console.log(qs, qs["val"]);
     var value_from_first_page = parseInt(qs["val"]);
 
-    if (value_from_first_page >= 8)  {
-        console.log("happy!");
+    if (value_from_first_page >= )  {
+        console.log("taylour8-10");
         currentQuestionIndex = 1;
     }
     else if (value_from_first_page >= 5) {
-        console.log("meh");
+        console.log("taylor6-7");
         currentQuestionIndex = 2;
+    }
+    else if (value_from_first_page >=) {
+        console.log("") 
     }
     else {
         console.log("sad");
