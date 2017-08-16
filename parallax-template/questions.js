@@ -40,11 +40,11 @@ $( document ).ready(function() {
 
     if (value_from_first_page >= 8)  {
         console.log("taylour8-10");
-        currentQuestionIndex = 14;
+        currentQuestionIndex = 13;
     }
     else if (value_from_first_page >= 6) {
         console.log("taylour6-7");
-        currentQuestionIndex = 13;
+        currentQuestionIndex = 12;
     }
     else if (value_from_first_page >= 4) {
         console.log("clemone4-5"); 
