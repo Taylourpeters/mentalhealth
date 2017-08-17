@@ -47,7 +47,7 @@ $( document ).ready(function() {
         currentQuestionIndex = 12;
     }
     else if (value_from_first_page >= 4) {
-        console.log("clemone4-5"); 
+        console.log("clemone4-5");
         currentQuestionIndex = 7;
     }
     else {
