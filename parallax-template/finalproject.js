@@ -3,7 +3,7 @@ $( document ).ready(function() {
 
 $("#download-button").click(function() {
   $('html,body').animate({
-    scrollTop: $("#middle").offset().top},
+    scrollTop: $("#hello").offset().top},
     'slow');
   });
 });
